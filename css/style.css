@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  background: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  padding: 15px 0;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h1 span {
+  font-weight: 300;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1rem;
+  margin: 10px 0;
+  line-height: 1.9em;
+}
+
+.container {
+  margin: auto;
+  max-width: 1300px;
+  padding: 0 20px;
+}
+
+.large {
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
+  padding: 12px 23px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 20px;
+  color: #fff;
+  border: none;
+  background: #CB3DFE;
+}
+
+form label {
+  display: inline-block;
+  margin-bottom: 6px;
+}
+form .form-group {
+  margin-bottom: 16px;
+}
+form .form-control {
+  display: block;
+  width: 100%;
+  padding: 7px 12px;
+  line-height: 1.5;
+  font-size: 1rem;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+#navbar {
+  padding-top: 80px;
+}
+
+#showcase {
+  padding: 50px;
+}
+#showcase .container {
+  display: flex;
+}
+#showcase .container .showcase-text {
+  flex: 2;
+  padding-top: 80px;
+}
+#showcase .container .showcase-text h1,
+#showcase .container .showcase-text p {
+  padding-right: 80px;
+}
+#showcase .container .showcase-form {
+  flex: 1;
+  background: #fff;
+  color: #000;
+  border-radius: 20px;
+}
+#showcase .container .showcase-form h4 {
+  text-align: center;
+  padding-top: 70px;
+}
+#showcase .container .showcase-form form {
+  padding: 50px 60px;
+}
+#showcase .container .showcase-form button {
+  width: 100%;
+  margin-top: 20px;
+}
+
+#mainfooter {
+  text-align: center;
+  padding: 30px;
+}
+
+@media (max-width: 700px) {
+  #navbar {
+    padding-top: 30px;
+    text-align: center;
+  }
+  #showcase {
+    padding: 20px;
+  }
+  #showcase .container {
+    flex-direction: column;
+  }
+  #showcase .container .showcase-text {
+    padding-top: 0;
+    text-align: center;
+  }
+  #showcase .container .showcase-text h1,
+  #showcase .container .showcase-text p {
+    padding-right: 0px;
+  }
+  #showcase .container .showcase-text .small {
+    padding-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

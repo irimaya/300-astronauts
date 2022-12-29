@@ -1,0 +1,26 @@
+@media (max-width: 700px) {
+	// Nav
+	#navbar {
+		padding-top: 30px;
+		text-align: center;
+	} //End #navbar
+
+	// Showcase
+	#showcase {
+		padding: 20px;
+		.container {
+			flex-direction: column;
+			.showcase-text {
+				padding-top: 0;
+				text-align: center;
+				h1,
+				p {
+					padding-right: 0px;
+				}
+				.small {
+					padding-bottom: 20px;
+				}
+			}
+		}
+	} //End #showcase
+}
